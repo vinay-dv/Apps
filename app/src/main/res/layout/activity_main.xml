@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:background="#00bfff"
+            android:fontFamily="cursive"
+            android:text="@string/viu"
+            android:textAlignment="center"
+            android:textColor="#f0f7ef"
+            android:textSize="120sp" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#00bfff"
+            android:fadingEdge="horizontal"
+            android:fontFamily="cursive"
+            android:text="stay updated with viu"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#f0f7ef"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:fadingEdge="horizontal"
+            android:fontFamily="casual"
+            android:paddingTop="30dp"
+            android:text="enter url of website"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/url"
+            android:inputType="text"
+            android:autofillHints="" tools:targetApi="o"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="25dp"
+            android:background="#05b805"
+            android:fontFamily="casual"
+            android:paddingTop="2dp"
+            android:text="notify me"
+            android:onClick="onButtonClick"
+            android:textAlignment="center"
+            android:textColor="#f0f7ef"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>
